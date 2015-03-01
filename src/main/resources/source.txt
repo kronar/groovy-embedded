@@ -1,0 +1,6 @@
+public class StringMirrorImpl implements StringMirror {
+    @Override
+    public String mirror(String input) {
+        return input;
+    }
+}

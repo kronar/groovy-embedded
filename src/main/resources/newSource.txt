@@ -1,0 +1,6 @@
+public class AAA implements StringMirror {
+    @Override
+    public String mirror(String input) {
+        return new StringBuilder(input).reverse().toString();
+    }
+}
